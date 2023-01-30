@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.util.*;
 import java.util.logging.Logger;
-import java.lang.*;
+
 import java.sql.Connection;
  class Database {
     static Database data=null;
