@@ -29,6 +29,8 @@ import java.sql.Connection;
         conn.close();
         s.info("Connection closed");
     }
+ }
+class Sampledatabase{
      public static void main(String[] args) throws SQLException {
          Logger s=Logger.getLogger("com.api.jar");
          Scanner sc = new Scanner(System.in);
