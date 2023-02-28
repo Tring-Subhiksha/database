@@ -29,8 +29,7 @@ import java.sql.Connection;
         conn.close();
         s.info("Connection closed");
     }
- }
-class Sampledatabase{
+
      public static void main(String[] args) throws SQLException {
          Logger s=Logger.getLogger("com.api.jar");
          Scanner sc = new Scanner(System.in);
@@ -51,12 +50,9 @@ class Sampledatabase{
                d.open(url, username, password);
                d.close1();
            }
-
                else{
                    s.info("Invalid choice");
            }
-
-
 
      }
  }
